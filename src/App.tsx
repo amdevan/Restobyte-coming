@@ -143,10 +143,10 @@ export default function App() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="font-display text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight max-w-none leading-[1.1] mb-8"
+          className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight w-full max-w-none leading-[1.1] mb-8"
         >
-          The operating system for{' '}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 via-brand-500 to-brand-600">
+          <span className="block">The operating system for</span>
+          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-brand-400 via-brand-500 to-brand-600">
             modern restaurants.
           </span>
         </motion.h1>
